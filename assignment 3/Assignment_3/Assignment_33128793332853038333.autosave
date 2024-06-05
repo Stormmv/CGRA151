@@ -1,0 +1,17 @@
+PImage fore, mid, back;
+PVector vfore, vmid, vback;
+
+void setup() {
+  fore = loadImage("SideScroller/background/bg_layer_1.png");
+  mid = loadImage("SideScroller/background/bg_layer_2.png");
+  back = loadImage("SideScroller/background/bg_layer_3.png");
+  size(640, 360);
+  vfore = new Pvector(0, 0)
+  vmid = new Pvector(0, 0)
+  vback = new Pvector(0, 0)
+  
+}
+
+void draw() {
+
+}
